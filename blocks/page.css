@@ -1,0 +1,8 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px; /* screen resolution of Apple iPhone 3 or 4 */
+  max-width: 1512x; /* screen resolution for Macbook Pro 14" per the Figma design */
+  background-color: white;
+  margin: 0 auto 0;
+}
