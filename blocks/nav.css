@@ -7,8 +7,8 @@
 .nav__links {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  column-gap: 31px;
+  justify-content: space-between;
+  column-gap: 54px;
   list-style: none;
   margin: 0;
   padding-top: 46px;
