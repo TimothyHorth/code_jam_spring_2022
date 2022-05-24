@@ -1,0 +1,13 @@
+.button-portfolio {
+  background-color: #0084ff;
+  border: none;
+  border-radius: 56px;
+  padding: 14px 67px 14px;
+}
+
+.button-portfolio__text {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}

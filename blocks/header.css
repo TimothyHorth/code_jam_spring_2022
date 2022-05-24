@@ -1,3 +1,40 @@
 .header {
-  padding: 47px 69px 0 122px;
+  position: relative;
+  padding: 47px 69px 317px 122px;
+}
+
+.header__avatar {
+  width: 183px;
+}
+
+.header__title {
+  margin: 0;
+  padding-top: 175px;
+}
+
+.header__title-salutation {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.header__attributes {
+  font-family: "Inter", sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  max-width: 636px;
+  margin: 0;
+  padding-bottom: 21px;
+}
+
+.header__hero-image {
+  position: absolute;
+  top: 273px;
+  right: -108px;
+}
+
+.header__ellipse {
+}
+
+.header__button {
 }
