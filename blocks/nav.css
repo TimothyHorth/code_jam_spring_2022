@@ -12,6 +12,8 @@
   list-style: none;
   margin: 0;
   padding-top: 46px;
+  /* temporary */
+  flex-wrap: wrap;
 }
 
 .nav__link {

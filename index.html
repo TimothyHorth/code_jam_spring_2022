@@ -1,98 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="The landing page for Terry Shlomo Tegegne's bio/portfolio website. You can view recent coding and design 
-      projects, see the current technologies he is up to date on, read about his hobbies, and contact him if needed!"
-    />
-    <meta name="author" content="Ori Hemo" />
-    <meta name="author" content="Solomon Barayev" />
-    <meta name="author" content="Timothy Horth" />
-    <meta
-      name="keywords"
-      content="Terry, Shlomo, Tegegne, UX, Designer, User, Experience"
-    />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="./favicon.ico" />
-    <title>Terry Shlomo Tegegne</title>
-  </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <nav class="nav">
-          <img
-            class="header__avatar"
-            src="./images/terry_avatar.svg"
-            alt="headshot of Terry"
-          />
-          <ul class="nav__links">
-            <li>
-              <a class="nav__link" href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#testimonials">Testimonials</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#about">About</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#skills">Skills</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <h1 class="header__title">
-          <span class="header__title-salutation">Hi,</span>
-          <span class="header__title-salutation"
-            >My&nbsp;name&nbsp;is&nbsp;Terry&nbsp;Shlomo&nbsp;Tegegne</span
-          >
-          &#128075;
-        </h1>
-        <h2 class="header__attributes">
-          Freelance UX Designer - Aspiring Web Developer - Scifi enthusiast -
-          Gardener - Proud pet goat owner
-        </h2>
-        <button
-          type="button"
-          class="button-portfolio"
-          aria-label="go to portfolio"
-        >
-          <span class="button-portfolio__text">Portfolio</span>
-        </button>
-        <img
-          class="header__hero-image"
-          src="./images/terry_hero_image.svg"
-          alt="Terry on a park bench"
-        />
-        <img
-          class="header__ellipse"
-          src="./images/blue_ellipse.svg"
-          alt="background"
-        />
-      </header>
-      <main class="main">
-        <section class="portfolio">
-          <h2 class="portfolio__title">Portfolio</h2>
-        </section>
-        <section class="testimonials">
-          <h2 class="">Testimonials</h2>
-        </section>
-        <section class="about">
-          <h2 class="">About Me</h2>
-        </section>
-        <section class="contact">
-          <h2 class="">Contact Me</h2>
-        </section>
-        <footer class="footer">
-          <p class="">&copy; 2022 Ori Hemo - Solomon Barayev - Timothy Horth</p>
-        </footer>
-      </main>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="The landing page for Terry Shlomo Tegegne's bio/portfolio website. You can view recent coding and design projects, see the current technologies he is up to date on, read about his hobbies, and contact him if needed!" />
+  <meta name="author" content="Ori Hemo" />
+  <meta name="author" content="Solomon Barayev" />
+  <meta name="author" content="Timothy Horth" />
+  <meta name="keywords" content="Terry, Shlomo, Tegegne, UX, Designer, User, Experience" />
+
+  <!-- adding swiper.js stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="icon" href="./favicon.ico" />
+  <title>Terry Shlomo Tegegne</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="nav">
+        <img class="header__avatar" src="./images/terry_avatar.svg" alt="headshot of Terry" />
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">
+        <span class="header__title-salutation">Hi,</span>
+        <span class="header__title-salutation">My name is Terry Shlomo Tegegne</span>
+        &#128075;
+      </h1>
+      <h2 class="header__attributes">
+        Freelance UX Designer - Aspiring Web Developer - Scifi enthusiast -
+        Gardener - Proud pet goat owner
+      </h2>
+      <button type="button" class="button-portfolio" aria-label="go to portfolio">
+        <span class="button-portfolio__text">Portfolio</span>
+      </button>
+      <!-- <img class="header__hero-image" src="./images/terry_hero_image.svg" alt="Terry on a park bench" />
+      <img class="header__ellipse" src="./images/blue_ellipse.svg" alt="background" /> -->
+    </header>
+    <main class="main">
+      <section class="portfolio">
+        <h2 class="portfolio__title">Portfolio</h2>
+
+
+        <div class="swiper mySwiper portfolio__swiper">
+          <div class="swiper-wrapper portfolio__swiper-wrapper">
+
+
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 1</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
+                    dignissimos explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Portfolio-1-1-sized.svg" alt="Terry's portfolio piece"
+                  class="portfolio__image">
+              </div>
+
+            </div>
+
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 2</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
+                    dignissimos explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Layer-2-sized.svg" alt="Terry's portfolio piece" class="portfolio__image">
+              </div>
+
+            </div>
+
+
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 3</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
+                    dignissimos explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Layer-3-sized.svg" alt="Terry's portfolio piece" class="portfolio__image">
+              </div>
+
+            </div>
+
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 4</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
+                    dignissimos explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Layer-4-sized.svg" alt="Terry's portfolio piece" class="portfolio__image">
+              </div>
+
+            </div>
+
+          </div>
+          <div class="swiper-button-next portfolio__swiper-button-next"></div>
+          <div class="swiper-button-prev portfolio__swiper-button-prev"></div>
+          <div class="swiper-pagination portfolio__swiper-pagination"></div>
+        </div>
+
+
+      </section>
+      <section class="testimonials">
+        <h2 class="">Testimonials</h2>
+      </section>
+      <section class="about">
+        <h2 class="">About Me</h2>
+      </section>
+      <section class="contact">
+        <h2 class="">Contact Me</h2>
+      </section>
+      <footer class="footer">
+        <p class="">&copy; 2022 Ori Hemo - Solomon Barayev - Timothy Horth</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- swiper.js script -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./scripts/swiper.js"></script>
+</body>
+
 </html>

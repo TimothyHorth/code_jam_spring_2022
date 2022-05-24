@@ -2,6 +2,9 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 
+/* import swiper.js css styles*/
+@import url("../vendor/swiper.css");
+
 /* import css styles for each blocks */
 
 @import url("../blocks/page.css");
