@@ -7,6 +7,7 @@
   margin: 0 auto;
   text-align: center;
   margin-bottom: 70px;
+  font-size: 35px;
 }
 .about__grid {
   display: grid;
@@ -87,11 +88,12 @@
   height: 10px;
   background-color: #fff;
   border-radius: 100px;
+  padding: 2px;
 }
 
 .about__skill-filler {
   height: 100%;
-  background-color: #fac659;
+  background-color: #61dafb;
   border-radius: 100px;
 }
 
@@ -116,6 +118,7 @@
 
 .about__in-progress-header {
   text-align: center;
+  margin: 0 auto 28px;
 }
 
 .about__logos {

@@ -2,10 +2,12 @@
   background-color: #0084ff;
   border: none;
   border-radius: 56px;
-  padding: 14px 67px 14px;
+  padding: 19px 67px;
   font-family: "Inter", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
   color: white;
 }
 /* 
