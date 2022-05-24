@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  padding: 47px 69px 317px 122px;
+  padding: 47px 100px 317px 122px;
 }
 
 .header__avatar {
@@ -31,10 +31,14 @@
   position: absolute;
   top: 273px;
   right: -108px;
+  width: 1044px;
+  z-index: 2;
 }
 
 .header__ellipse {
-}
-
-.header__button {
+  position: absolute;
+  top: 230px;
+  right: -152px;
+  width: 734px;
+  z-index: 1;
 }
