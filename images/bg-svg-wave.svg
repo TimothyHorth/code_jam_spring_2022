@@ -1,0 +1,23 @@
+<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+          .path-0{
+            animation:pathAnim-0 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+          }
+          @keyframes pathAnim-0{
+            0%{
+              d: path("M 0,400 C 0,400 0,200 0,200 C 191,237 382,274 622,274 C 862,274 1151,237 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            25%{
+              d: path("M 0,400 C 0,400 0,200 0,200 C 231,225.5 462,251 702,251 C 942,251 1191,225.5 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            50%{
+              d: path("M 0,400 C 0,400 0,200 0,200 C 180.5,213.5 361,227 601,227 C 841,227 1140.5,213.5 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            75%{
+              d: path("M 0,400 C 0,400 0,200 0,200 C 254,195.5 508,191 748,191 C 988,191 1214,195.5 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+            100%{
+              d: path("M 0,400 C 0,400 0,200 0,200 C 191,237 382,274 622,274 C 862,274 1151,237 1440,200 C 1440,200 1440,400 1440,400 Z");
+            }
+          }</style><defs><linearGradient id="gradient" x1="21%" y1="9%" x2="79%" y2="91%"><stop offset="5%" stop-color="#95cbfdff"></stop><stop offset="95%" stop-color="#7bdcb5ff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,200 0,200 C 191,237 382,274 622,274 C 862,274 1151,237 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>

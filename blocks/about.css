@@ -1,0 +1,55 @@
+.about {
+  padding: 0;
+  background-color: rgba(149, 203, 253, 0.3);
+}
+.about__title {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.about__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "image text"
+    "skills text"
+    "in-progress button";
+  max-width: 1331px;
+  margin: 0 auto;
+  column-gap: 94px;
+  row-gap: 82pxs;
+}
+
+.about__image {
+  grid-area: image;
+  width: 100%;
+}
+
+.about__text-container {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  line-height: 26px;
+  font-size: 22px;
+}
+
+.about__text {
+  margin: 0;
+}
+
+.about__button-container {
+  grid-area: button;
+}
+
+.about__skills-container {
+  grid-area: skills;
+}
+
+.about__skills-header {
+  margin: 0;
+}
+
+.about__in-progress {
+  grid-area: in-progress;
+}
