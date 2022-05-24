@@ -61,6 +61,7 @@
   right: 0px;
   /* width: 734px; */
   z-index: 1;
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 1324px) {

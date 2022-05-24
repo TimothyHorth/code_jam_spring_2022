@@ -1,6 +1,7 @@
 .about {
   padding: 0;
   background-color: rgba(149, 203, 253, 0.3);
+  padding: 0 40px 140px;
 }
 .about__title {
   margin: 0 auto;
@@ -9,7 +10,7 @@
 }
 .about__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(350px, 1fr) 1fr;
   grid-template-areas:
     "image text"
     "skills text"
@@ -23,6 +24,7 @@
 .about__image {
   grid-area: image;
   width: 100%;
+  align-items: flex-end;
 }
 
 .about__text-container {
@@ -38,12 +40,18 @@
   margin: 0;
 }
 
+.about__link {
+  font-style: italic;
+}
+
 .about__button-container {
   grid-area: button;
+  padding-top: 50px;
 }
 
 .about__skills-container {
   grid-area: skills;
+  text-align: center;
 }
 
 .about__skills-header {
@@ -52,4 +60,95 @@
 
 .about__in-progress {
   grid-area: in-progress;
+}
+
+.about__skills-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__skill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.about__skill-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+.about__skill-box {
+  width: 80%;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+.about__skill-filler {
+  height: 100%;
+  background-color: #fac659;
+  border-radius: 100px;
+}
+
+#about__html-prog {
+  width: 95%;
+}
+
+#about__css-prog {
+  width: 80%;
+}
+
+#about__figma-prog {
+  width: 93%;
+}
+
+#about__js-prog {
+  width: 60%;
+}
+#about__adobe-prog {
+  width: 70%;
+}
+
+.about__in-progress-header {
+  text-align: center;
+}
+
+.about__logos {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+}
+
+@media (max-width: 1199.98px) {
+  .about__grid {
+    display: grid;
+    grid-template-columns: minmax(350px, 1fr) 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "text"
+      "skills"
+      "in-progress"
+      "button";
+    row-gap: 55px;
+  }
+  .about__skills-list {
+    width: 92%;
+  }
+
+  .about__button-container {
+    text-align: center;
+  }
+
+  .about__button-container {
+    padding-top: 20px;
+  }
 }
