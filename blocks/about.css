@@ -93,8 +93,38 @@
 
 .about__skill-filler {
   height: 100%;
-  background-color: #61dafb;
   border-radius: 100px;
+}
+
+.about__skill-progress {
+  background-color: #61dafb;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.about__skill-progress_animation {
+  animation: skillBar 3s ease-in-out;
+  animation-fill-mode: both;
+  -moz-animation: skillBar 3s ease-in-out;
+  -moz-animation-fill-mode: both;
+}
+
+@-webkit-keyframes skillBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-moz-keyframes skillBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 #about__html-prog {
