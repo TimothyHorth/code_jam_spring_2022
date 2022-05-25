@@ -44,13 +44,13 @@
         </ul>
       </nav>
       <div class="header__content">
-        <h1 class="header__title">
+        <h1 class="header__title" data-scroll>
           <span class="header__title-salutation">Hi, &#128075;</span>
           <span class="header__title-salutation">My name is <span class="header__line-break">Terry Shlomo
               Tegegne</span></span>
 
         </h1>
-        <h2 class="header__attributes">
+        <h2 class="header__attributes" data-scroll>
           Freelance UX Designer <span class="header__dash">-</span> Aspiring Web Developer <span
             class="header__dash">-</span> Scifi enthusiast <span class="header__dash">-</span>
           Gardener <span class="header__dash">-</span> Proud pet goat owner
@@ -59,8 +59,9 @@
           Portfolio
         </button>
       </div>
-      <img class="header__hero-image" src="./images/terry_hero_image.svg" alt="Terry on a park bench" />
-      <img class="header__ellipse" src="./images/blue_ellipse.svg" alt="background" />
+      <img class="header__hero-image rellax" data-rellax-speed="-3" src="./images/terry_hero_image.svg"
+        alt="Terry on a park bench" />
+      <img class="header__ellipse rellax" data-rellax-speed="4" src="./images/blue_ellipse.svg" alt="background" />
     </header>
     <main class="main">
 
@@ -141,8 +142,9 @@
           <div class="about__in-progress">
             <h3 class="about__in-progress-header">In Progress</h3>
             <ul class="about__logos">
-              <li class="about__logo-item"><img src="./images/react.png" alt="React" class="about__logo"></li>
               <li class="about__logo-item"><img src="./images/nodejs.png" alt="NodeJS" class="about__logo"></li>
+              <li class="about__logo-item"><img src="./images/react.png" alt="React"
+                  class="about__logo about__logo_type_react"></li>
               <li class="about__logo-item"><img src="./images/mongo.png" alt="mongodb" class="about__logo"></li>
             </ul>
           </div>
@@ -259,9 +261,12 @@
     </main>
   </div>
 
-  <!-- swiper.js script -->
+  <!-- swiperJS script for the slider -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./scripts/swiper.js"></script>
+  <!-- rellaxJS script for the Parrallax scrolling  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+
   <script src="./scripts/index.js"></script>
 </body>
 

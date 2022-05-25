@@ -56,12 +56,9 @@
 
 .header__ellipse {
   position: absolute;
-  /* top: 230px; */
   bottom: 236px;
   right: 0px;
-  /* width: 734px; */
   z-index: 1;
-  opacity: 0.4;
 }
 
 @media screen and (max-width: 1324px) {

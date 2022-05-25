@@ -1,0 +1,11 @@
+[data-scroll] {
+  transition: transform 3s;
+}
+
+[data-scroll="in"] {
+  transition: translateY(0);
+}
+
+[data-scroll="out"] {
+  transition: translateY(200px);
+}

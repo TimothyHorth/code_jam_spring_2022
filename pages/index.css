@@ -5,6 +5,8 @@
 /* import swiper.js css styles*/
 @import url("../vendor/swiper.css");
 
+/*import rellax.js css styles*/
+@import url("../vendor/rellax.css");
 /* import css styles for each blocks */
 
 @import url("../blocks/page.css");

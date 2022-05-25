@@ -1,3 +1,4 @@
+//enabling skills Bars to animate only when in viewport
 const element = document.querySelector(".about__grid");
 const skillBars = [...document.querySelectorAll(".about__skill-progress")];
 
@@ -11,3 +12,9 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 observer.observe(element);
+
+//adding parrallax scrolling effect with rellaxJS library
+let rellax = new Rellax(".rellax");
+ScrollOut({
+  threshold: 0.6,
+});
