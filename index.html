@@ -155,110 +155,84 @@
 
 
 
-      <section class="portfolio">
-        <h2 class="portfolio__title">Portfolio</h2>
-
-
-        <div class="swiper mySwiper portfolio__swiper">
-          <div class="swiper-wrapper portfolio__swiper-wrapper">
-
-
-            <div class="swiper-slide portfolio__swiper-slide">
-              <div class="portfolio__slide-container">
-                <div class="portfolio__slide-content">
-                  <h3 class="portfolio__slide-header">Project 1</h3>
-                  <p class="portfolio__slide-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
-                    dignissimos explicabo, provident.
-                  </p>
-                  <div class="portfolio__tags-wrapper">
-                    <span class="portfolio__tag">UX Design</span>
-                    <span class="portfolio__tag">UI Design</span>
-                    <span class="portfolio__tag">Web Dev</span>
-                  </div>
-                </div>
-                <img src="./images/portfolio/Portfolio-1-1-sized.svg" alt="Terry's portfolio piece"
-                  class="portfolio__image">
-              </div>
-
-            </div>
-
-            <div class="swiper-slide portfolio__swiper-slide">
-              <div class="portfolio__slide-container">
-                <div class="portfolio__slide-content">
-                  <h3 class="portfolio__slide-header">Project 2</h3>
-                  <p class="portfolio__slide-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
-                    dignissimos explicabo, provident.
-                  </p>
-                  <div class="portfolio__tags-wrapper">
-                    <span class="portfolio__tag">UX Design</span>
-                    <span class="portfolio__tag">UI Design</span>
-                    <span class="portfolio__tag">Web Dev</span>
-                  </div>
-                </div>
-                <img src="./images/portfolio/Layer-2-sized.svg" alt="Terry's portfolio piece" class="portfolio__image">
-              </div>
-
-            </div>
-
-
-            <div class="swiper-slide portfolio__swiper-slide">
-              <div class="portfolio__slide-container">
-                <div class="portfolio__slide-content">
-                  <h3 class="portfolio__slide-header">Project 3</h3>
-                  <p class="portfolio__slide-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
-                    dignissimos explicabo, provident.
-                  </p>
-                  <div class="portfolio__tags-wrapper">
-                    <span class="portfolio__tag">UX Design</span>
-                    <span class="portfolio__tag">UI Design</span>
-                    <span class="portfolio__tag">Web Dev</span>
-                  </div>
-                </div>
-                <img src="./images/portfolio/Layer-3-sized.svg" alt="Terry's portfolio piece" class="portfolio__image">
-              </div>
-
-            </div>
-
-            <div class="swiper-slide portfolio__swiper-slide">
-              <div class="portfolio__slide-container">
-                <div class="portfolio__slide-content">
-                  <h3 class="portfolio__slide-header">Project 4</h3>
-                  <p class="portfolio__slide-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi illo eos non nihil aliquam
-                    dignissimos explicabo, provident.
-                  </p>
-                  <div class="portfolio__tags-wrapper">
-                    <span class="portfolio__tag">UX Design</span>
-                    <span class="portfolio__tag">UI Design</span>
-                    <span class="portfolio__tag">Web Dev</span>
-                  </div>
-                </div>
-                <img src="./images/portfolio/Layer-4-sized.svg" alt="Terry's portfolio piece" class="portfolio__image">
-              </div>
-
-            </div>
-
-          </div>
-          <div class="swiper-button-next portfolio__swiper-button-next"></div>
-          <div class="swiper-button-prev portfolio__swiper-button-prev"></div>
-          <div class="swiper-pagination portfolio__swiper-pagination"></div>
-        </div>
-
-
-      </section>
       <section class="testimonials">
-        <h2 class="">Testimonials</h2>
+        <h2 class="testimonials__title">Testimonials</h2>
+        <div class="testimonials__instances">
+          <div class="testimonials__instance testimonials__instance_herbert">
+            <img class="testimonials__headshot testimonials__headshot_herbert" src="./images/judge.svg" alt="herbert">
+            <img class="testimonials__speech-bubble-tail-herbert" src="./images/speech_bubble_tail.svg" alt="">
+            <div class="testimonials__speech-bubble testimonials__speech-bubble_herbert">
+              <p class="testimonials__text_herbert">"Terry was amazing to work with! He is at the very pinnacle of the
+                UX indsutry, and
+                never ceases to amaze me with the quality of product he delivers!" </p>
+              <p class="testimonials__citing_herbert"> - Herbert, satisfied client</p>
+            </div>
+          </div>
+          <div class="testimonials__instance testimonials__instance_susan">
+            <div class="testimonials__speech-bubble testimonials__speech-bubble_susan">
+              <p class="testimonials__text_susan">"Our website
+                had a very old and out-of-style design, but Terrry was able to revamp it so it had a much more energetic
+                and modern look!
+                Business has been great ever since!" </p>
+              <p class="testimonials__citing_susan">- Susan, owner of Sweet Suzie's Bakery</p>
+            </div>
+            <img class="testimonials__headshot testimonials__headshot_susan" src="./images/shopkeeper.svg" alt="susan">
+          </div>
+          <div class="testimonials__instance testimonials__instance_todd">
+            <img class="testimonials__headshot testimonials__headshot_todd" src="./images/manager.svg" alt="todd">
+            <img class="testimonials__speech-bubble-tail-todd" src="./images/speech_bubble_tail.svg" alt="">
+            <div class="testimonials__speech-bubble testimonials__speech-bubble_todd">
+              <p class="testimonials__text_todd">"Terry's in-depth knowledge of HTML, CSS,
+                and JS really sets him apart form other UX designers! He's able to effectively communicate with our
+                developers to
+                work around issues and ensure a perfect product is delivered every time!" </p>
+              <p class="testimonials__citing_todd"> - Todd, CEO of Acme Web Development </p>
+            </div>
+          </div>
+        </div>
       </section>
+
 
       <section class="contact">
-        <h2 class="">Contact Me</h2>
+        <h2 class="contact__title">Contact Me!</h2>
+        <div class="contact__form">
+          <div class="contact__form-sidebar">
+            <label class="contact__form-label" for="name">Name</label>
+            <input type="text" class="contact__form-input contact__form-input_type_attribute" name="name"
+              placeholder="John Doe" required>
+            <label class="contact__form-label" for="email">E-mail</label>
+            <input type="text" class="contact__form-input contact__form-input_type_attribute" id="email"
+              placeholder="johndoe@gmail.com" required>
+            <label class="contact__form-label" for="phone">Phone</label>
+            <input type="text" class="contact__form-input contact__form-input_type_attribute" id="phone"
+              placeholder="###-###-####" required>
+            <label class="contact__form-label" for="message">Message</label>
+          </div>
+          <img src="./images/terry_contact_me.svg" class="contact__form-image" alt="terry smiling">
+        </div>
+        <div class="contact__messagebox">
+          <textarea class="contact__form-input contact__form-input_type_message" id="message"
+            placeholder="Enter your message here..."></textarea>
+        </div>
+        <div class="contact__button-container">
+          <button type="button" class="contact__button">Get In Touch</button>
+        </div>
       </section>
+
+
       <footer class="footer">
-        <p class="">&copy; 2022 Ori Hemo - Solomon Barayev - Timothy Horth</p>
+        <div class="footer__icons">
+          <img src="./images/social-media-icons/facebook.svg" class="footer__icon" alt="Facebook">
+          <img src="./images/social-media-icons/instagram.svg" class="footer__icon" alt="instagram">
+          <img src="./images/social-media-icons/linkedin.svg" class="footer__icon" alt="LinkedIn">
+          <img src="./images/social-media-icons/tiktok.svg" class="footer__icon" alt="TikTok">
+          <img src="./images/social-media-icons/github.svg" class="footer__icon" alt="GitHub">
+          <img src="./images/social-media-icons/email.svg" class="footer__icon" alt="Email">
+        </div>
+        <p class="footer__copyright">&copy; 2022 Ori Hemo - Solomon Barayev - Timothy Horth</p>
       </footer>
+
+
     </main>
   </div>
 
