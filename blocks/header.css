@@ -52,6 +52,7 @@
   right: 0px;
   /* width: 1044px; */
   z-index: 2;
+  max-width: 896px;
 }
 
 .header__ellipse {
