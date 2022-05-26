@@ -15,7 +15,7 @@
 
 .testimonials__ellipse {
   position: absolute;
-  right: -30%;
+  right: -10%;
   top: 50%;
   z-index: 1;
   opacity: 0.4;
