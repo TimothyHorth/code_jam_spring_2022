@@ -39,7 +39,7 @@
   flex-direction: row-reverse;
 }
 .testimonials__headshot {
-  max-width: 250px;
+  max-width: 181px;
   z-index: 2;
 }
 .testimonials__speech-bubble {
