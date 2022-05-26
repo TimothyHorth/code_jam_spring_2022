@@ -85,6 +85,11 @@
 .contact__icon {
   width: 45px;
   height: 45px;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.contact__icon:hover {
+  opacity: 0.85;
 }
 
 @media screen and (max-width: 1127px) {
