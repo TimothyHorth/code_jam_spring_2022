@@ -15,6 +15,3 @@ observer.observe(element);
 
 //adding parrallax scrolling effect with rellaxJS library
 let rellax = new Rellax(".rellax");
-ScrollOut({
-  threshold: 0.6,
-});

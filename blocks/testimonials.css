@@ -9,12 +9,11 @@
 
 .testimonials__title {
   font-family: "Inter", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
-  line-height: 1.2;
-  padding-top: 94px;
-  padding-bottom: 75px;
+  padding-top: 99px;
   margin: 0;
+  padding-bottom: 75px;
 }
 
 .testimonials__instances {
@@ -46,17 +45,17 @@
 }
 
 .testimonials__headshot_herbert {
-  max-width: 250px;
+  max-width: 152px;
   position: relative;
   top: 45px;
 }
 
 .testimonials__headshot_susan {
-  width: 300px;
+  width: 200px;
 }
 
 .testimonials__headshot_todd {
-  width: 250px;
+  max-width: 152px;
 }
 
 .testimonials__speech-bubble {
