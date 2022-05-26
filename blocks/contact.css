@@ -88,7 +88,12 @@
   width: 100%;
   min-height: 163px;
   resize: none;
-  padding-top: 20px;
+  padding: 10px 20px 0;
+  text-indent: 0;
+}
+
+.contact__form-input_type_message::placeholder {
+  text-indent: 0;
 }
 
 .contact__form-image {
