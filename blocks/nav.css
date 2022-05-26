@@ -98,7 +98,7 @@
     display: block;
     position: fixed;
     top: 45px;
-    right: 80px;
+    right: 40px;
     z-index: 10000;
   }
   .nav__hmburger-button_open {
