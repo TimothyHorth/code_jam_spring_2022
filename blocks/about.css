@@ -197,3 +197,12 @@
     padding-top: 20px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .about__skill-name {
+    font-size: 15px;
+  }
+  .about__skill {
+    gap: 10px;
+  }
+}
