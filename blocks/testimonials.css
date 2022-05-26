@@ -136,6 +136,10 @@
   text-align: right;
 }
 
+.testimonials__text-quotes {
+  font-family: "Quicksand", sans-serif;
+}
+
 @media screen and (max-width: 1024px) {
   .testimonials__title {
     padding-bottom: 65px;

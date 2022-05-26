@@ -333,11 +333,11 @@
                 class="testimonials__speech-bubble testimonials__speech-bubble_herbert"
               >
                 <p class="testimonials__text testimonials__text_herbert">
-                  <span class="testimonials__text-quotes">"</span>Terry was
-                  amazing to work with! He is at the very pinnacle of the UX
+                  <span class="testimonials__text-quotes">"&nbsp;</span>Terry
+                  was amazing to work with! He is at the very pinnacle of the UX
                   indsutry, and never ceases to amaze me with the quality of
                   product he delivers!<span class="testimonials__text-quotes"
-                    >"</span
+                    >&nbsp;"</span
                   >
                 </p>
                 <p class="testimonials__citing testimonials__citing_herbert">
@@ -350,12 +350,12 @@
                 class="testimonials__speech-bubble testimonials__speech-bubble_susan"
               >
                 <p class="testimonials__text testimonials__text_susan">
-                  <span class="testimonials__text-quotes">"</span>Our website
-                  had a very old and out-of-style design, but Terrry was able to
-                  revamp it so it had a much more energetic and modern look!
-                  Business has been great ever since!<span
+                  <span class="testimonials__text-quotes">"&nbsp;</span>Our
+                  website had a very old and out-of-style design, but Terrry was
+                  able to revamp it so it had a much more energetic and modern
+                  look! Business has been great ever since!<span
                     class="testimonials__text-quotes"
-                    >"</span
+                    >&nbsp;"</span
                   >
                 </p>
                 <p class="testimonials__citing testimonials__citing_susan">
@@ -383,13 +383,13 @@
                 class="testimonials__speech-bubble testimonials__speech-bubble_todd"
               >
                 <p class="testimonials__text testimonials__text_todd">
-                  <span class="testimonials__text-quotes">"</span>Terry's
+                  <span class="testimonials__text-quotes">"&nbsp;</span>Terry's
                   in-depth knowledge of HTML, CSS, and JS really sets him apart
                   form other UX designers! He's able to effectively communicate
                   with our developers to work around issues and ensure a perfect
                   product is delivered every time!<span
                     class="testimonials__text-quotes"
-                    >"</span
+                    >&nbsp;"</span
                   >
                 </p>
                 <p class="testimonials__citing testimonials__citing_todd">
@@ -402,8 +402,18 @@
 
         <section class="contact">
           <h2 class="contact__title">Contact Me!</h2>
+
+          <!--go0d-->
+
           <div class="contact__form">
-            <div class="contact__form-sidebar">
+            <div class="contact__image-container">
+              <img
+                src="./images/terry_contact_me.svg"
+                class="contact__form-image"
+                alt="terry smiling"
+              />
+            </div>
+            <div class="contact__name-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
                 type="text"
@@ -412,6 +422,8 @@
                 placeholder="John Doe"
                 required
               />
+            </div>
+            <div class="contact__email-field">
               <label class="contact__form-label" for="email">E-mail</label>
               <input
                 type="text"
@@ -420,6 +432,8 @@
                 placeholder="johndoe@gmail.com"
                 required
               />
+            </div>
+            <div class="contact__phone-field">
               <label class="contact__form-label" for="phone">Phone</label>
               <input
                 type="text"
@@ -428,23 +442,20 @@
                 placeholder="###-###-####"
                 required
               />
-              <label class="contact__form-label" for="message">Message</label>
             </div>
-            <img
-              src="./images/terry_contact_me.svg"
-              class="contact__form-image"
-              alt="terry smiling"
-            />
-          </div>
-          <div class="contact__messagebox">
-            <textarea
-              class="contact__form-input contact__form-input_type_message"
-              id="message"
-              placeholder="Enter your message here..."
-            ></textarea>
-          </div>
-          <div class="contact__button-container">
-            <button type="button" class="contact__button">Get In Touch</button>
+            <div class="contact__message-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                class="contact__form-input contact__form-input_type_message"
+                id="message"
+                placeholder="Enter your message here..."
+              ></textarea>
+            </div>
+            <div class="contact__submit-button">
+              <button type="button" class="contact__button">
+                Get In Touch
+              </button>
+            </div>
           </div>
         </section>
 
