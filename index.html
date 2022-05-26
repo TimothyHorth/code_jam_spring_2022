@@ -1,513 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="The landing page for Terry Shlomo Tegegne's bio/portfolio website. You can view recent coding and design projects, see the current technologies he is up to date on, read about his hobbies, and contact him if needed!"
-    />
-    <meta name="author" content="Ori Hemo" />
-    <meta name="author" content="Solomon Barayev" />
-    <meta name="author" content="Timothy Horth" />
-    <meta
-      name="keywords"
-      content="Terry, Shlomo, Tegegne, UX, Designer, User, Experience"
-    />
 
-    <!-- adding swiper.js stylesheet -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="The landing page for Terry Shlomo Tegegne's bio/portfolio website. You can view recent coding and design projects, see the current technologies he is up to date on, read about his hobbies, and contact him if needed!" />
+  <meta name="author" content="Ori Hemo" />
+  <meta name="author" content="Solomon Barayev" />
+  <meta name="author" content="Timothy Horth" />
+  <meta name="keywords" content="Terry, Shlomo, Tegegne, UX, Designer, User, Experience" />
 
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="./favicon.ico" />
-    <title>Terry Shlomo Tegegne</title>
-  </head>
+  <!-- adding swiper.js stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-  <body>
-    <div class="page">
-      <header class="header">
-        <nav class="nav">
-          <img
-            class="header__avatar"
-            src="./images/terry_avatar.svg"
-            alt="headshot of Terry"
-          />
-          <ul class="nav__links">
-            <li>
-              <a class="nav__link" href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#testimonials">Testimonials</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#about">About</a>
-            </li>
-            <li>
-              <a class="nav__link" href="#skills">Skills</a>
-            </li>
-            <li>
-              <a class="nav__link nav__link_type_contact" href="#contact"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <div class="header__content">
-          <h1 class="header__title" data-scroll>
-            <span class="header__title-salutation">Hi, &#128075;</span>
-            <span class="header__title-salutation"
-              >My name is
-              <span class="header__line-break">Terry Shlomo Tegegne</span></span
-            >
-          </h1>
-          <h2 class="header__attributes" data-scroll>
-            Freelance UX Designer <span class="header__dash">-</span> Aspiring
-            Web Developer <span class="header__dash">-</span> Scifi enthusiast
-            <span class="header__dash">-</span> Gardener
-            <span class="header__dash">-</span> Proud pet goat owner
-          </h2>
-          <button type="button" class="button" aria-label="go to portfolio">
-            Portfolio
-          </button>
-        </div>
-        <img
-          class="header__hero-image rellax"
-          data-rellax-speed="-3"
-          data-rellax-mobile-speed="-2"
-          data-rellax-tablet-speed="-1"
-          data-rellax-desktop-speed="-3"
-          src="./images/Terrybench-hero-min.png"
-          alt="Terry on a park bench"
-        />
-        <img
-          class="header__ellipse rellax"
-          data-rellax-speed="4"
-          src="./images/blue_ellipse.svg"
-          alt="background"
-        />
-      </header>
-      <main class="main">
-        <section class="about">
-          <h2 class="about__title">About Me</h2>
+  <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="icon" href="./favicon.ico" />
+  <title>Terry Shlomo Tegegne</title>
+</head>
 
-          <div class="about__grid">
-            <img
-              src="./images/terry_about_us-removebg-preview.png"
-              alt="Terry working on his projects"
-              class="about__image"
-            />
-            <div class="about__text-container">
-              <p class="about__text">
-                In my world, users come first! I take pride in ensuring that
-                each website or application I work on provides the most
-                user-friendly experience possible! However, after having worked
-                as a UX designer for the better part of a decade, it is my goal
-                to transition from being the artist to being the builder. That's
-                why I have enrolled in Practicum's Software Engineering course
-                with the goal of becoming a full stack engineer!
-              </p>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="nav">
+        <img class="header__avatar" src="./images/terry_avatar.svg" alt="headshot of Terry" />
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li>
+            <a class="nav__link nav__link_type_contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__title" data-scroll>
+          <span class="header__title-salutation">Hi, &#128075;</span>
+          <span class="header__title-salutation">My name is
+            <span class="header__line-break">Terry Shlomo Tegegne</span></span>
+        </h1>
+        <h2 class="header__attributes" data-scroll>
+          Freelance UX Designer <span class="header__dash">-</span> Aspiring
+          Web Developer <span class="header__dash">-</span> Scifi enthusiast
+          <span class="header__dash">-</span> Gardener
+          <span class="header__dash">-</span> Proud pet goat owner
+        </h2>
+        <button type="button" class="button" aria-label="go to portfolio">
+          Portfolio
+        </button>
+      </div>
+      <img class="header__hero-image rellax" data-rellax-speed="-3" data-rellax-mobile-speed="-2"
+        data-rellax-tablet-speed="-1" data-rellax-desktop-speed="-3" src="./images/Terrybench-hero-min.png"
+        alt="Terry on a park bench" />
+      <img class="header__ellipse rellax" data-rellax-speed="4" src="./images/blue_ellipse.svg" alt="background" />
+    </header>
+    <main class="main">
+      <section class="about" id="about">
+        <h2 class="about__title">About Me</h2>
 
-              <p class="about__text">
-                My previous work experience as a UX designer has given me
-                invaluable knowledge that gives me an edge over other
-                developers. Still, I’d be nowhere if not for Practicum! Their
-                courses have gone above and beyond in providing me with
-                real-world information and experience in the web development
-                industry! I’m already shocked with how much I can do with HTML,
-                CSS, and JavaScript.
-              </p>
-
-              <p class="about__text">
-                When I’m not coding or designing, I enjoy being outside tending
-                to the vegetables and fruits in my garden, as well as reading a
-                good sc-fi book. But, absolutely nothing can compare to spending
-                time with my Anglo-Nubian goat, Billy! I adopted him during a
-                backpacking trip through Europe, and we’ve been inseparable ever
-                since. I even started a TikTok channel documenting the
-                shenanigans we get into!
-              </p>
-              <a href="#" class="about__link"
-                >Check out my Billy's page here >></a
-              >
-            </div>
-
-            <div class="about__button-container">
-              <button class="about__button button">Download my Resume</button>
-            </div>
-            <div class="about__skills-container">
-              <h3 class="about__skills-header">Top Skills</h3>
-              <ul class="about__skills-list">
-                <li class="about__skill">
-                  <p class="about__skill-name">HTML</p>
-                  <div class="about__skill-box">
-                    <div class="about__skill-filler" id="about__html-prog">
-                      <div class="about__skill-progress"></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="about__skill">
-                  <p class="about__skill-name">CSS</p>
-                  <div class="about__skill-box">
-                    <div class="about__skill-filler" id="about__css-prog">
-                      <div class="about__skill-progress"></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="about__skill">
-                  <p class="about__skill-name">Figma</p>
-                  <div class="about__skill-box">
-                    <div class="about__skill-filler" id="about__figma-prog">
-                      <div class="about__skill-progress"></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="about__skill">
-                  <p class="about__skill-name">JS</p>
-                  <div class="about__skill-box">
-                    <div class="about__skill-filler" id="about__js-prog">
-                      <div class="about__skill-progress"></div>
-                    </div>
-                  </div>
-                </li>
-                <li class="about__skill">
-                  <p class="about__skill-name">Adobe</p>
-                  <div class="about__skill-box">
-                    <div class="about__skill-filler" id="about__adobe-prog">
-                      <div class="about__skill-progress"></div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="about__in-progress">
-              <h3 class="about__in-progress-header">In Progress</h3>
-              <ul class="about__logos">
-                <li class="about__logo-item">
-                  <img
-                    src="./images/nodejs.png"
-                    alt="NodeJS"
-                    class="about__logo"
-                  />
-                </li>
-                <li class="about__logo-item">
-                  <img
-                    src="./images/react.png"
-                    alt="React"
-                    class="about__logo about__logo_type_react"
-                  />
-                </li>
-                <li class="about__logo-item">
-                  <img
-                    src="./images/mongo.png"
-                    alt="mongodb"
-                    class="about__logo"
-                  />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section class="portfolio">
-          <h2 class="portfolio__title">Portfolio</h2>
-
-          <div class="swiper mySwiper portfolio__swiper">
-            <div class="swiper-wrapper portfolio__swiper-wrapper">
-              <div class="swiper-slide portfolio__swiper-slide">
-                <div class="portfolio__slide-container">
-                  <div class="portfolio__slide-content">
-                    <h3 class="portfolio__slide-header">Project 1</h3>
-                    <p class="portfolio__slide-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laborum eligendi illo eos non nihil aliquam dignissimos
-                      explicabo, provident.
-                    </p>
-                    <div class="portfolio__tags-wrapper">
-                      <span class="portfolio__tag">UX Design</span>
-                      <span class="portfolio__tag">UI Design</span>
-                      <span class="portfolio__tag">Web Dev</span>
-                    </div>
-                  </div>
-                  <img
-                    src="./images/portfolio/Portfolio-1-1-sized.svg"
-                    alt="Terry's portfolio piece"
-                    class="portfolio__image"
-                  />
-                </div>
-              </div>
-
-              <div class="swiper-slide portfolio__swiper-slide">
-                <div class="portfolio__slide-container">
-                  <div class="portfolio__slide-content">
-                    <h3 class="portfolio__slide-header">Project 2</h3>
-                    <p class="portfolio__slide-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laborum eligendi illo eos non nihil aliquam dignissimos
-                      explicabo, provident.
-                    </p>
-                    <div class="portfolio__tags-wrapper">
-                      <span class="portfolio__tag">UX Design</span>
-                      <span class="portfolio__tag">UI Design</span>
-                      <span class="portfolio__tag">Web Dev</span>
-                    </div>
-                  </div>
-                  <img
-                    src="./images/portfolio/Layer-2-sized.svg"
-                    alt="Terry's portfolio piece"
-                    class="portfolio__image"
-                  />
-                </div>
-              </div>
-
-              <div class="swiper-slide portfolio__swiper-slide">
-                <div class="portfolio__slide-container">
-                  <div class="portfolio__slide-content">
-                    <h3 class="portfolio__slide-header">Project 3</h3>
-                    <p class="portfolio__slide-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laborum eligendi illo eos non nihil aliquam dignissimos
-                      explicabo, provident.
-                    </p>
-                    <div class="portfolio__tags-wrapper">
-                      <span class="portfolio__tag">UX Design</span>
-                      <span class="portfolio__tag">UI Design</span>
-                      <span class="portfolio__tag">Web Dev</span>
-                    </div>
-                  </div>
-                  <img
-                    src="./images/portfolio/Layer-3-sized.svg"
-                    alt="Terry's portfolio piece"
-                    class="portfolio__image"
-                  />
-                </div>
-              </div>
-
-              <div class="swiper-slide portfolio__swiper-slide">
-                <div class="portfolio__slide-container">
-                  <div class="portfolio__slide-content">
-                    <h3 class="portfolio__slide-header">Project 4</h3>
-                    <p class="portfolio__slide-text">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Laborum eligendi illo eos non nihil aliquam dignissimos
-                      explicabo, provident.
-                    </p>
-                    <div class="portfolio__tags-wrapper">
-                      <span class="portfolio__tag">UX Design</span>
-                      <span class="portfolio__tag">UI Design</span>
-                      <span class="portfolio__tag">Web Dev</span>
-                    </div>
-                  </div>
-                  <img
-                    src="./images/portfolio/Layer-4-sized.svg"
-                    alt="Terry's portfolio piece"
-                    class="portfolio__image"
-                  />
-                </div>
-              </div>
-            </div>
-            <div class="swiper-button-next portfolio__swiper-button-next"></div>
-            <div class="swiper-button-prev portfolio__swiper-button-prev"></div>
-            <div class="swiper-pagination portfolio__swiper-pagination"></div>
-          </div>
-        </section>
-
-        <section class="testimonials">
-          <h2 class="testimonials__title">Testimonials</h2>
-          <div class="testimonials__instances">
-            <div class="testimonials__instance testimonials__instance_herbert">
-              <img
-                class="testimonials__headshot testimonials__headshot_herbert"
-                src="./images/judge.svg"
-                alt="herbert"
-              />
-              <img
-                class="testimonials__speech-bubble-tail-herbert"
-                src="./images/speech_bubble_tail.svg"
-                alt=""
-              />
-              <div
-                class="testimonials__speech-bubble testimonials__speech-bubble_herbert"
-              >
-                <p class="testimonials__text testimonials__text_herbert">
-                  <span class="testimonials__text-quotes">"&nbsp;</span>Terry
-                  was amazing to work with! He is at the very pinnacle of the UX
-                  indsutry, and never ceases to amaze me with the quality of
-                  product he delivers!<span class="testimonials__text-quotes"
-                    >&nbsp;"</span
-                  >
-                </p>
-                <p class="testimonials__citing testimonials__citing_herbert">
-                  - Herbert, satisfied client
-                </p>
-              </div>
-            </div>
-            <div class="testimonials__instance testimonials__instance_susan">
-              <div
-                class="testimonials__speech-bubble testimonials__speech-bubble_susan"
-              >
-                <p class="testimonials__text testimonials__text_susan">
-                  <span class="testimonials__text-quotes">"&nbsp;</span>Our
-                  website had a very old and out-of-style design, but Terrry was
-                  able to revamp it so it had a much more energetic and modern
-                  look! Business has been great ever since!<span
-                    class="testimonials__text-quotes"
-                    >&nbsp;"</span
-                  >
-                </p>
-                <p class="testimonials__citing testimonials__citing_susan">
-                  - Susan, owner of Sweet Suzie's Bakery
-                </p>
-              </div>
-              <img
-                class="testimonials__headshot testimonials__headshot_susan"
-                src="./images/shopkeeper.svg"
-                alt="susan"
-              />
-            </div>
-            <div class="testimonials__instance testimonials__instance_todd">
-              <img
-                class="testimonials__headshot testimonials__headshot_todd"
-                src="./images/manager.svg"
-                alt="todd"
-              />
-              <img
-                class="testimonials__speech-bubble-tail-todd"
-                src="./images/speech_bubble_tail.svg"
-                alt=""
-              />
-              <div
-                class="testimonials__speech-bubble testimonials__speech-bubble_todd"
-              >
-                <p class="testimonials__text testimonials__text_todd">
-                  <span class="testimonials__text-quotes">"&nbsp;</span>Terry's
-                  in-depth knowledge of HTML, CSS, and JS really sets him apart
-                  form other UX designers! He's able to effectively communicate
-                  with our developers to work around issues and ensure a perfect
-                  product is delivered every time!<span
-                    class="testimonials__text-quotes"
-                    >&nbsp;"</span
-                  >
-                </p>
-                <p class="testimonials__citing testimonials__citing_todd">
-                  - Todd, CEO of Acme Web Development
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="contact">
-          <h2 class="contact__title">Contact Me!</h2>
-
-          <!--go0d-->
-
-          <div class="contact__form">
-            <div class="contact__image-container">
-              <img
-                src="./images/terry_contact_me.svg"
-                class="contact__form-image"
-                alt="terry smiling"
-              />
-            </div>
-            <div class="contact__name-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                type="text"
-                class="contact__form-input contact__form-input_type_attribute"
-                name="name"
-                placeholder="John Doe"
-                required
-              />
-            </div>
-            <div class="contact__email-field">
-              <label class="contact__form-label" for="email">E-mail</label>
-              <input
-                type="text"
-                class="contact__form-input contact__form-input_type_attribute"
-                id="email"
-                placeholder="johndoe@gmail.com"
-                required
-              />
-            </div>
-            <div class="contact__phone-field">
-              <label class="contact__form-label" for="phone">Phone</label>
-              <input
-                type="text"
-                class="contact__form-input contact__form-input_type_attribute"
-                id="phone"
-                placeholder="###-###-####"
-                required
-              />
-            </div>
-            <div class="contact__message-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                class="contact__form-input contact__form-input_type_message"
-                id="message"
-                placeholder="Enter your message here..."
-              ></textarea>
-            </div>
-            <div class="contact__submit-button">
-              <button type="button" class="contact__button">
-                Get In Touch
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <footer class="footer">
-          <div class="footer__icons">
-            <img
-              src="./images/social-media-icons/facebook.svg"
-              class="footer__icon"
-              alt="Facebook"
-            />
-            <img
-              src="./images/social-media-icons/instagram.svg"
-              class="footer__icon"
-              alt="instagram"
-            />
-            <img
-              src="./images/social-media-icons/linkedin.svg"
-              class="footer__icon"
-              alt="LinkedIn"
-            />
-            <img
-              src="./images/social-media-icons/tiktok.svg"
-              class="footer__icon"
-              alt="TikTok"
-            />
-            <img
-              src="./images/social-media-icons/github.svg"
-              class="footer__icon"
-              alt="GitHub"
-            />
-            <img
-              src="./images/social-media-icons/email.svg"
-              class="footer__icon"
-              alt="Email"
-            />
-          </div>
-          <div class="footer__copyright">
-            <p class="footer__copyright-symbol-and-year">&copy; 2022</p>
-            <p class="footer__copyright-text">
-              Ori Hemo - Solomon Barayev - Timothy Horth
+        <div class="about__grid">
+          <img src="./images/terry_about_us-removebg-preview.png" alt="Terry working on his projects"
+            class="about__image" />
+          <div class="about__text-container">
+            <p class="about__text">
+              In my world, users come first! I take pride in ensuring that
+              each website or application I work on provides the most
+              user-friendly experience possible! However, after having worked
+              as a UX designer for the better part of a decade, it is my goal
+              to transition from being the artist to being the builder. That's
+              why I have enrolled in Practicum's Software Engineering course
+              with the goal of becoming a full stack engineer!
             </p>
+
+            <p class="about__text">
+              My previous work experience as a UX designer has given me
+              invaluable knowledge that gives me an edge over other
+              developers. Still, I’d be nowhere if not for Practicum! Their
+              courses have gone above and beyond in providing me with
+              real-world information and experience in the web development
+              industry! I’m already shocked with how much I can do with HTML,
+              CSS, and JavaScript.
+            </p>
+
+            <p class="about__text">
+              When I’m not coding or designing, I enjoy being outside tending
+              to the vegetables and fruits in my garden, as well as reading a
+              good sc-fi book. But, absolutely nothing can compare to spending
+              time with my Anglo-Nubian goat, Billy! I adopted him during a
+              backpacking trip through Europe, and we’ve been inseparable ever
+              since. I even started a TikTok channel documenting the
+              shenanigans we get into!
+            </p>
+            <a href="#" class="about__link">Check out my Billy's page here >></a>
           </div>
-        </footer>
-      </main>
-    </div>
 
-    <!-- swiperJS script for the slider -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./scripts/swiper.js"></script>
-    <!-- rellaxJS script for the Parrallax scrolling  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+          <div class="about__button-container">
+            <button class="about__button button">Download my Resume</button>
+          </div>
+          <div class="about__skills-container" id="skills">
+            <h3 class="about__skills-header">Top Skills</h3>
+            <ul class="about__skills-list">
+              <li class="about__skill">
+                <p class="about__skill-name">HTML</p>
+                <div class="about__skill-box">
+                  <div class="about__skill-filler" id="about__html-prog">
+                    <div class="about__skill-progress"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="about__skill">
+                <p class="about__skill-name">CSS</p>
+                <div class="about__skill-box">
+                  <div class="about__skill-filler" id="about__css-prog">
+                    <div class="about__skill-progress"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="about__skill">
+                <p class="about__skill-name">Figma</p>
+                <div class="about__skill-box">
+                  <div class="about__skill-filler" id="about__figma-prog">
+                    <div class="about__skill-progress"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="about__skill">
+                <p class="about__skill-name">JS</p>
+                <div class="about__skill-box">
+                  <div class="about__skill-filler" id="about__js-prog">
+                    <div class="about__skill-progress"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="about__skill">
+                <p class="about__skill-name">Adobe</p>
+                <div class="about__skill-box">
+                  <div class="about__skill-filler" id="about__adobe-prog">
+                    <div class="about__skill-progress"></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="about__in-progress">
+            <h3 class="about__in-progress-header">In Progress</h3>
+            <ul class="about__logos">
+              <li class="about__logo-item">
+                <img src="./images/nodejs.png" alt="NodeJS" class="about__logo" />
+              </li>
+              <li class="about__logo-item">
+                <img src="./images/react.png" alt="React" class="about__logo about__logo_type_react" />
+              </li>
+              <li class="about__logo-item">
+                <img src="./images/mongo.png" alt="mongodb" class="about__logo" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-    <script src="./scripts/index.js"></script>
-  </body>
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">Portfolio</h2>
+
+        <div class="swiper mySwiper portfolio__swiper">
+          <div class="swiper-wrapper portfolio__swiper-wrapper">
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 1</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laborum eligendi illo eos non nihil aliquam dignissimos
+                    explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Portfolio-1-1-sized.svg" alt="Terry's portfolio piece"
+                  class="portfolio__image" />
+              </div>
+            </div>
+
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 2</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laborum eligendi illo eos non nihil aliquam dignissimos
+                    explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Layer-2-sized.svg" alt="Terry's portfolio piece"
+                  class="portfolio__image" />
+              </div>
+            </div>
+
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 3</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laborum eligendi illo eos non nihil aliquam dignissimos
+                    explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Layer-3-sized.svg" alt="Terry's portfolio piece"
+                  class="portfolio__image" />
+              </div>
+            </div>
+
+            <div class="swiper-slide portfolio__swiper-slide">
+              <div class="portfolio__slide-container">
+                <div class="portfolio__slide-content">
+                  <h3 class="portfolio__slide-header">Project 4</h3>
+                  <p class="portfolio__slide-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laborum eligendi illo eos non nihil aliquam dignissimos
+                    explicabo, provident.
+                  </p>
+                  <div class="portfolio__tags-wrapper">
+                    <span class="portfolio__tag">UX Design</span>
+                    <span class="portfolio__tag">UI Design</span>
+                    <span class="portfolio__tag">Web Dev</span>
+                  </div>
+                </div>
+                <img src="./images/portfolio/Layer-4-sized.svg" alt="Terry's portfolio piece"
+                  class="portfolio__image" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next portfolio__swiper-button-next"></div>
+          <div class="swiper-button-prev portfolio__swiper-button-prev"></div>
+          <div class="swiper-pagination portfolio__swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <h2 class="testimonials__title">Testimonials</h2>
+        <div class="testimonials__instances">
+          <div class="testimonials__instance testimonials__instance_herbert">
+            <img class="testimonials__headshot testimonials__headshot_herbert" src="./images/judge.svg" alt="herbert" />
+            <img class="testimonials__speech-bubble-tail-herbert" src="./images/speech_bubble_tail.svg" alt="" />
+            <div class="testimonials__speech-bubble testimonials__speech-bubble_herbert">
+              <p class="testimonials__text testimonials__text_herbert">
+                <span class="testimonials__text-quotes">"&nbsp;</span>Terry
+                was amazing to work with! He is at the very pinnacle of the UX
+                indsutry, and never ceases to amaze me with the quality of
+                product he delivers!<span class="testimonials__text-quotes">&nbsp;"</span>
+              </p>
+              <p class="testimonials__citing testimonials__citing_herbert">
+                - Herbert, satisfied client
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__instance testimonials__instance_susan">
+            <div class="testimonials__speech-bubble testimonials__speech-bubble_susan">
+              <p class="testimonials__text testimonials__text_susan">
+                <span class="testimonials__text-quotes">"&nbsp;</span>Our
+                website had a very old and out-of-style design, but Terrry was
+                able to revamp it so it had a much more energetic and modern
+                look! Business has been great ever since!<span class="testimonials__text-quotes">&nbsp;"</span>
+              </p>
+              <p class="testimonials__citing testimonials__citing_susan">
+                - Susan, owner of Sweet Suzie's Bakery
+              </p>
+            </div>
+            <img class="testimonials__headshot testimonials__headshot_susan" src="./images/shopkeeper.svg"
+              alt="susan" />
+          </div>
+          <div class="testimonials__instance testimonials__instance_todd">
+            <img class="testimonials__headshot testimonials__headshot_todd" src="./images/manager.svg" alt="todd" />
+            <img class="testimonials__speech-bubble-tail-todd" src="./images/speech_bubble_tail.svg" alt="" />
+            <div class="testimonials__speech-bubble testimonials__speech-bubble_todd">
+              <p class="testimonials__text testimonials__text_todd">
+                <span class="testimonials__text-quotes">"&nbsp;</span>Terry's
+                in-depth knowledge of HTML, CSS, and JS really sets him apart
+                form other UX designers! He's able to effectively communicate
+                with our developers to work around issues and ensure a perfect
+                product is delivered every time!<span class="testimonials__text-quotes">&nbsp;"</span>
+              </p>
+              <p class="testimonials__citing testimonials__citing_todd">
+                - Todd, CEO of Acme Web Development
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="contact__title">Contact Me!</h2>
+
+        <!--go0d-->
+
+        <div class="contact__form">
+          <div class="contact__image-container">
+            <img src="./images/terry_contact_me.svg" class="contact__form-image" alt="terry smiling" />
+          </div>
+          <div class="contact__name-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input type="text" class="contact__form-input contact__form-input_type_attribute" name="name"
+              placeholder="John Doe" required />
+          </div>
+          <div class="contact__email-field">
+            <label class="contact__form-label" for="email">E-mail</label>
+            <input type="text" class="contact__form-input contact__form-input_type_attribute" id="email"
+              placeholder="johndoe@gmail.com" required />
+          </div>
+          <div class="contact__phone-field">
+            <label class="contact__form-label" for="phone">Phone</label>
+            <input type="text" class="contact__form-input contact__form-input_type_attribute" id="phone"
+              placeholder="###-###-####" required />
+          </div>
+          <div class="contact__message-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea class="contact__form-input contact__form-input_type_message" id="message"
+              placeholder="Enter your message here..."></textarea>
+          </div>
+          <div class="contact__submit-button">
+            <button type="button" class="contact__button">
+              Get In Touch
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__icons">
+          <img src="./images/social-media-icons/facebook.svg" class="footer__icon" alt="Facebook" />
+          <img src="./images/social-media-icons/instagram.svg" class="footer__icon" alt="instagram" />
+          <img src="./images/social-media-icons/linkedin.svg" class="footer__icon" alt="LinkedIn" />
+          <img src="./images/social-media-icons/tiktok.svg" class="footer__icon" alt="TikTok" />
+          <img src="./images/social-media-icons/github.svg" class="footer__icon" alt="GitHub" />
+          <img src="./images/social-media-icons/email.svg" class="footer__icon" alt="Email" />
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__copyright-symbol-and-year">&copy; 2022</p>
+          <p class="footer__copyright-text">
+            Ori Hemo - Solomon Barayev - Timothy Horth
+          </p>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- swiperJS script for the slider -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./scripts/swiper.js"></script>
+  <!-- rellaxJS script for the Parrallax scrolling  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+
+  <script src="./scripts/index.js"></script>
+</body>
+
 </html>
