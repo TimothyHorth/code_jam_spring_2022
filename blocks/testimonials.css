@@ -11,6 +11,8 @@
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .testimonials__ellipse {
@@ -29,6 +31,7 @@
   padding-bottom: 109px;
   position: relative;
   z-index: 2;
+  text-align: center;
 }
 
 .testimonials__instances {
