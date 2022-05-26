@@ -25,21 +25,26 @@
   z-index: 2;
   position: relative;
 }
-.testimonials__instances {
+.testimonials__instances-list {
+  list-style: none;
   width: 75%;
+  padding: 0;
+  margin: 0;
+}
+.testimonials__instances-item {
   padding-bottom: 150px;
   display: flex;
   position: relative;
   z-index: 2;
 }
-.testimonials__instances:last-of-type {
+.testimonials__instances-item:last-of-type {
   padding-bottom: 356px;
 }
-.testimonials__instances_right {
+.testimonials__instances-item_right {
   flex-direction: row-reverse;
 }
 .testimonials__headshot {
-  max-width: 181px;
+  max-width: 180px;
   z-index: 2;
 }
 .testimonials__speech-bubble {
@@ -62,14 +67,12 @@
   text-align: end;
   font-size: 18px;
 }
-
 .testimonials__ellipse {
   position: absolute;
   right: -10%;
   top: 50%;
   z-index: 1;
 }
-
 @media screen and (max-width: 1024px) {
   .testimonials__headshot {
     max-width: 200px;
@@ -82,12 +85,14 @@
   .testimonials__headshot {
     max-width: 100px;
   }
-  .testimonials__instances {
-    align-items: flex-start;
-    padding-bottom: 40px;
+  .testimonials__instances-list {
     width: 90%;
   }
-  .testimonials__instances:last-of-type {
+  .testimonials__instances-item {
+    align-items: flex-start;
+    padding-bottom: 40px;
+  }
+  .testimonials__instances-item:last-of-type {
     padding-bottom: 150px;
   }
   .testimonials__speech-bubble-tail {
@@ -104,11 +109,11 @@
   .testimonials__headshot {
     max-width: 60px;
   }
-  .testimonials__instances {
+  .testimonials__instances-item {
     align-items: flex-start;
     padding-bottom: 20px;
   }
-  .testimonials__instances:last-of-type {
+  .testimonials__instances-item:last-of-type {
     padding-bottom: 120px;
   }
   .testimonials__speech-bubble-tail {

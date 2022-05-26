@@ -92,6 +92,15 @@
   opacity: 0.85;
 }
 
+.contact__icons-list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 35px 40px;
+  padding: 0 0 56px;
+  list-style: none;
+  margin: 0;
+}
+
 @media screen and (max-width: 1127px) {
   .contact__title {
     text-align: center;
