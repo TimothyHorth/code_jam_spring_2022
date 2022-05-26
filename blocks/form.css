@@ -79,6 +79,7 @@
   outline-color: #0084ff;
   outline-width: 3px;
   outline-offset: -3px;
+  border-radius: 6px;
 }
 
 .form__input::placeholder {
