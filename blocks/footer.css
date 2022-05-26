@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,6 +69,62 @@
 }
 
 @media screen and (max-width: 600px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+} */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 132, 255, 0.08);
+  padding: 85px 0 54px;
+  margin: 0 auto 0;
+  max-width: 1512px;
+}
+
+.footer__copyright {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas: "copyright authors";
+  font-family: "Inter", sans-serif;
+  gap: 0 14px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.footer__copyright-symbol-and-year {
+  margin: 0;
+  grid-area: copyright;
+  text-align: center;
+}
+
+.footer__copyright-text {
+  margin: 0;
+  grid-area: authors;
+}
+
+@media screen and (max-width: 880px) {
+  /*.footer__icons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 35px 0;
+  }*/
+
+  .footer__copyright {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      "authors"
+      "copyright";
+    font-size: 16px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .footer__copyright {
     font-size: 12px;
   }
