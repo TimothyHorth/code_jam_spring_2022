@@ -68,6 +68,7 @@
   }
   .header__title {
     margin: 0 auto;
+    padding-top: 90px;
   }
   .header__attributes {
     margin: 0 auto;
