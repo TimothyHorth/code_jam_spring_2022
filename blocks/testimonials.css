@@ -4,7 +4,11 @@
   align-items: center;
   max-width: 1512px;
   margin: 0 auto 0;
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(../images/wave-2.svg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .testimonials__title {
@@ -19,7 +23,7 @@
 .testimonials__instances {
   max-width: 1250px; /*1067px*/
   width: 100%;
-  padding-bottom: 198px;
+  padding-bottom: 356px;
 }
 
 .testimonials__instance {
