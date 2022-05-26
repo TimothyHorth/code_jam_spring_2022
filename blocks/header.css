@@ -29,7 +29,6 @@
 
 .header__dash {
   color: rgb(188, 188, 188);
-  /* font-size: 40px; */
   line-height: 20px;
 }
 
@@ -93,5 +92,11 @@
   }
   .header__attributes {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-bottom: 150px;
   }
 }

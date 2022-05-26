@@ -87,3 +87,9 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .portfolio__slide-container {
+    padding-top: 20px;
+  }
+}

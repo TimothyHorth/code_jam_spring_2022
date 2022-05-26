@@ -81,6 +81,7 @@
 .about__skill-name {
   margin: 0;
   font-weight: bold;
+  font-size: 17px;
 }
 
 .about__skill-box {
@@ -200,9 +201,15 @@
 
 @media screen and (max-width: 550px) {
   .about__skill-name {
-    font-size: 15px;
+    font-size: 14px;
   }
   .about__skill {
     gap: 10px;
+  }
+  .about__logos {
+    gap: 25px;
+  }
+  .about__logo {
+    width: 50px;
   }
 }
