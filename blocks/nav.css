@@ -8,12 +8,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   gap: 24px;
   list-style: none;
   margin: 0;
   padding-top: 46px;
   /* temporary */
   flex-wrap: wrap;
+  max-height: 30px;
 }
 
 .nav__link {
@@ -23,6 +25,7 @@
   color: #000000;
   text-decoration: none;
   transition: all 0.25s linear;
+  display: inline-block;
 }
 
 .nav__link:hover {
@@ -36,6 +39,13 @@
   color: white;
   padding: 10px 20px;
   border-radius: 100px;
+}
+
+.nav__link_type_contact:hover {
+  border-bottom: none;
+  /* padding-bottom: none; */
+  transform: translateY(-4px);
+  color: white;
 }
 
 @media (max-width: 991.98px) {

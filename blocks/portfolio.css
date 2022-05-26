@@ -37,6 +37,9 @@
   box-sizing: border-box;
   max-width: 1084px;
   padding-bottom: 100px;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
 }
 
 .portfolio__slide-header {
