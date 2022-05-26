@@ -1,3 +1,4 @@
+// passing necessary settings to SwiperJS
 let swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,

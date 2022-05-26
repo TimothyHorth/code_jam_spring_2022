@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  padding: 47px 40px 517px 40px;
+  padding: 0 40px 517px 40px;
   box-sizing: border-box;
   max-width: 1512px;
   background-image: url("../images/wave.svg");

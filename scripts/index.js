@@ -16,10 +16,14 @@ observer.observe(element);
 //adding parrallax scrolling effect with rellaxJS library
 let rellax = new Rellax(".rellax");
 
+// logic for mobile menu dropdown
+
 const menuButton = document.querySelector(".nav__hmburger-button");
 const menuLinks = document.querySelector(".nav__links");
-const linksList = Array.from(menuLinks.querySelectorAll(".nav__link"));
-const navBar = Array.from(document.querySelectorAll(".nav__bar"));
+const linksList = [...menuLinks.querySelectorAll(".nav__link")];
+const navBar = [...document.querySelectorAll(".nav__bar")];
+
+///// event handlers
 const toggleMenuButton = () => {
   menuLinks.classList.toggle("nav__links_active");
   menuButton.classList.toggle("nav__hmburger-button_open");
@@ -27,6 +31,8 @@ const toggleMenuButton = () => {
     bar.classList.toggle(`${bar.classList[1]}_active`);
   });
 };
+
+/////event listeners
 menuButton.addEventListener("click", () => toggleMenuButton());
 linksList.forEach((link) => {
   link.addEventListener("click", () => toggleMenuButton());

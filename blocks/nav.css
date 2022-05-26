@@ -16,6 +16,7 @@
 .nav__avatar {
   width: 100%;
   max-width: 185px;
+  padding-top: 20px;
 }
 .nav__link {
   font-family: "Inter", sans-serif;
@@ -62,6 +63,7 @@
   }
   .nav__avatar {
     max-width: 100px;
+    padding-top: 0px;
   }
   .nav__link {
     color: #0084ff;
