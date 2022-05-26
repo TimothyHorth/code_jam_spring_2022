@@ -9,6 +9,15 @@
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.testimonials__ellipse {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: 1;
+  opacity: 0.4;
 }
 
 .testimonials__title {
@@ -31,6 +40,8 @@
   flex-direction: row;
   padding-left: 50px;
   padding-right: 50px;
+  position: relative;
+  z-index: 2;
 }
 
 .testimonials__instance_herbert {
