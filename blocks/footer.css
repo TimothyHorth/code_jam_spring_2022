@@ -14,7 +14,7 @@
   justify-content: space-between;
   max-width: 804px;
   width: 100%;
-  padding-bottom: 71.74px;
+  padding-bottom: 70px;
 }
 
 .footer__icon {
@@ -23,8 +23,53 @@
 }
 
 .footer__copyright {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas: "copyright authors";
   font-family: "Inter", sans-serif;
+  gap: 0 14px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.footer__copyright-symbol-and-year {
+  margin: 0;
+  grid-area: copyright;
+  text-align: center;
+}
+
+.footer__copyright-text {
+  margin: 0;
+  grid-area: authors;
+}
+
+@media screen and (max-width: 1150px) {
+  .footer__icons {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .footer__icons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 35px 0;
+  }
+
+  .footer__copyright {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      "authors"
+      "copyright";
+    font-size: 16px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
 }
