@@ -27,7 +27,7 @@ Amongst them are the following:
 
 Team consistst of the following developers:
 
-- Timothy Horthe
+- Timothy Horth
 - Ori Chemo
 - Solomon Barayev
 
