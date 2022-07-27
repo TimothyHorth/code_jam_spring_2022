@@ -56,6 +56,17 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.testimonials__speech-bubble-tail {
+  position: relative;
+  left: 2px;
+}
+
+.testimonials__speech-bubble-tail_type_right {
+  position: relative;
+  left: -2px;
+}
+
 .testimonials__text {
   margin: 0;
 }
