@@ -25,7 +25,7 @@ Amongst them are the following:
 
 ## Team: Caffeinated Coders
 
-Team consistst of the following developers:
+Team consists of the following developers:
 
 - Timothy Horth
 - Ori Chemo
